@@ -84,7 +84,7 @@ def groupOfWords():
 
      myFile.close()
 
-     wordstochoose = input('Enter either a letter all words starting with that letter\nor choose ALL for the entire list of words: \n')
+     wordstochoose = input('Enter either a letter, in all caps, for a list of words starting with that letter \nor type ALL for the entire list of words: \n')
      if wordstochoose == 'A':
          print('You chose the letter A')
          return aTxt
